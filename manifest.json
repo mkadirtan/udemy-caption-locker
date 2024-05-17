@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Udemy Caption Locker",
+  "version": "1.0",
+  "description": "A minimal Chrome extension.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://udemy.com",
+    "https://www.udemy.com"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
