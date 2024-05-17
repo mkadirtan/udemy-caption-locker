@@ -22,7 +22,7 @@ function udemyCaptionLocker() {
                         return transcriptPanel
                     }
 
-                    let transcriptToggle = document.querySelector < HTMLButtonElement > ("[data-purpose=transcript-toggle]")
+                    let transcriptToggle = document.querySelector("[data-purpose=transcript-toggle]")
                     if (!transcriptToggle) {
                         return null
                     }
