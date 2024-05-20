@@ -2,14 +2,20 @@
   "manifest_version": 3,
   "name": "Udemy Caption Locker",
   "version": "1.0",
-  "description": "A minimal Chrome extension.",
+  "description": "This extension allows you to track translated transcript text from captions. If you translate the whole page when transcript is open, this extension will automatically keep track of the active caption text from transcript and replace it with the active video caption text.",
   "permissions": [
     "activeTab",
     "scripting"
   ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' http://localhost;object-src 'self';"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
   "host_permissions": [
-    "https://udemy.com",
-    "https://www.udemy.com"
+    "https://udemy.com/*",
+    "https://www.udemy.com/*"
   ],
   "action": {
     "default_popup": "popup.html"
