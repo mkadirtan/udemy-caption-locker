@@ -4,7 +4,7 @@
     "128": "assets/logo.png"
   },
   "name": "Udemy Caption Locker",
-  "version": "1.0",
+  "version": "1.1",
   "description": "This extension automatically snaps transcript text into caption, useful for translation.",
   "permissions": [
     "activeTab",
