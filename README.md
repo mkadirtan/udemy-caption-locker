@@ -7,14 +7,19 @@ As opposed to the captions, the transcription doesn't change dynamically. Once t
 
 If you look closely, the active caption is also highlighted in the transcription. This extension simply copies the highlighted transcription text into the active caption.
 
-## Install
+## Installation
+
+Add to Chrome in the [Chrome Web Store](https://chromewebstore.google.com/detail/udemy-caption-locker/geifogaendipbgfedeapaemalcmfdnca), and follow the usage guide below.
+
+## Usage Guide
+- Open your favorite Udemy course.
+- Turn on the extension, it will automatically toggle the transcript panel open if not opened already.
+- Use Google Translate or your favorite extension to translate the transcript in place.
+- Udemy Caption Locker will make sure captions are always the same with transcript.
+
+## Development
 - Clone the repo
 - Navigate `chrome://extensions/`
 - Enable developer mode
 - Load unpacked, target to this projects directory
 
-## Use
-- Open your favorite Udemy course.
-- Turn on the extension, it will automatically toggle the transcript panel open if not opened already.
-- Use Google Translate or your favorite extension to translate the transcript in place.
-- Udemy Caption Locker will make sure captions are always the same with transcript.
